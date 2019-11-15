@@ -50,7 +50,7 @@ class Task
 
     public function changeTitle(string $title): void {
         if($this->completed) {
-            throw new \RuntimeException('Title change is allowed only for not completed tasks');
+            //throw new \RuntimeException('Title change is allowed only for not completed tasks');
         }
 
         $this->title = $title;
