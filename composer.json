@@ -92,6 +92,9 @@
         "tests": [
             "bin/phpunit"
         ],
+        "unit": [
+            "phpunit --testsuit=unit"
+        ],
         "tests-full": [
             "bin/console cache:clear --env=test",
             "bin/console d:s:d --force --full-database --env=test",
