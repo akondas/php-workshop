@@ -8,7 +8,7 @@
       type: "BUILD"
       working_directory: "/buddy/php-workshop"
       docker_image_name: "library/php"
-      docker_image_tag: "7.2-stretch"
+      docker_image_tag: "7.3-stretch"
       execute_commands:
         - "composer install"
         - "composer tests-full"
